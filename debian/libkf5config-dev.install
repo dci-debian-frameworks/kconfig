@@ -1,0 +1,4 @@
+usr/include/KF5/
+usr/lib/*/*.so
+usr/lib/*/cmake/
+usr/bin/kconfig_compiler_kf5

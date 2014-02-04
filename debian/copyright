@@ -1,0 +1,164 @@
+Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: kconfig
+Source: https://projects.kde.org/projects/frameworks/kconfig
+
+Files: *
+Copyright: 1996-2000 Matthias Kalle Dalheimer <kalle@kde.org>
+           1998, 1999, 2000 Waldo Bastian <bastian@kde.org>
+           1999-2000 Preston Brown <pbrown@kde.org>
+           1999 Pietro Iglio <iglio@kde.org>
+           2001,2002,2003 Cornelius Schumacher <schumacher@kde.org>
+           2003 Zack Rusin <zack@kde.org>
+           2005 Duncan Mac-Vicar <duncan@kde.org>
+           2005, 2011, 2012 David Faure <faure@kde.org>
+           2006, 2007 Thomas Braxton <kde.braxton@gmail.com>
+           2006 Michaël Larouche <michael.larouche@kdemail.net>
+           2006 Olivier Goffart  <ogoffart at kde.org>
+           2006 Thomas Braxton <brax108@cox.net>
+           2007-2008 Aaron Seigo <aseigo@kde.org>
+           2007 Thiago Macieira <thiago@kde.org>
+           2008 Allen Winter <winter@kde.org>
+           2008 Jakub Stachowski <qbast@go2.pl>
+           2009 Pino Toscano <pino@kde.org>
+           2010 Martin Blumenstingl <darklight.xdarklight@googlemail.com> *
+           2010 Canonical Ltd
+           2013 Marco Martin <mart@kde.org>
+License: LGPL-2+
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) any later version.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: src/gui/kwindowconfig.cpp
+     src/gui/kwindowconfig.h
+     src/gui/kconfiggui.h
+     src/gui/kconfiggui.cpp
+Copyright: 2012 Benjamin Port <benjamin.port@ben2367.fr>
+           1999 Matthias Ettrich <ettrich@kde.org>
+License: LGPL-2+ as approved by KDE Ev.
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public
+ License as published by the Free Software Foundation; either
+ version 2.1 of the License, or (at your option) version 3, or any
+ later version accepted by the membership of KDE e.V. (or its
+ successor approved by the membership of KDE e.V.), which shall
+ act as a proxy defined in Section 6 of version 3 of the license.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Lesser General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public
+ License along with this library.  If not, see <http://www.gnu.org/licenses/>.
+
+Files: src/gui/kwindowconfig.cpp
+     src/gui/kwindowconfig.h
+     src/gui/kconfiggui.h
+     src/gui/kconfiggui.cpp
+     autotests/kdesktopfiletest.h
+     autotests/kdesktopfiletest.cpp
+     src/kconf_update/kconf_update.cpp
+Copyright: 2001 Waldo Bastian <bastian@kde.org>
+           1997 Stefan Taferner (taferner@alpin.or.at)
+           2000 Nicolas Hadacek (haadcek@kde.org)
+           2001,2002 Ellis Whitehead (ellis@kde.org)
+           2006 David Faure   <faure@kde.org>
+License: LGPL-2
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License version 2 as published by the Free Software Foundation.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Lesser General
+ Public License version 2 can be found in "/usr/share/common-licenses/LGPL-2".
+
+Files: src/core/kemailsettings.cpp
+       src/core/kemailsettings.h
+Copyright: 2000 Alex Zepeda <zipzippy@sonic.net>
+License: BSD
+ Redistribution and use in source and binary forms, with or without
+ modification, are permitted provided that the following conditions
+ are met:
+ 1. Redistributions of source code must retain the above copyright
+    notice, this list of conditions and the following disclaimer.
+ 2. Redistributions in binary form must reproduce the above copyright
+    notice, this list of conditions and the following disclaimer in the
+    documentation and/or other materials provided with the distribution.
+ .
+ THIS SOFTWARE IS PROVIDED BY THE AUTHOR AND CONTRIBUTORS ``AS IS'' AND
+ ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+ IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE
+ ARE DISCLAIMED.  IN NO EVENT SHALL THE AUTHOR OR CONTRIBUTORS BE LIABLE
+ FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+ DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS
+ OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION)
+ HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY
+ OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF
+ SUCH DAMAGE.
+
+Files: autotests/kconfig_compiler/*
+Copyright: 2003 Cornelius Schumacher <schumacher@kde.org>
+   2003,2004 Waldo Bastian <bastian@kde.org>
+   2005 Helge Deller <deller@kde.org>
+   2009 Pino Toscano <pino@kde.org>
+   2007 Andreas Pakulat <apaku@gmx.de>
+License: MIT
+ Permission is hereby granted, free of charge, to any person obtaining a copy
+ of this software and associated documentation files (the "Software"), to deal
+ in the Software without restriction, including without limitation the rights
+ to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+ copies of the Software, and to permit persons to whom the Software is
+ furnished to do so, subject to the following conditions:
+ .
+ The above copyright notice and this permission notice shall be included in
+ all copies or substantial portions of the Software.
+ .
+ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+ IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+ FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.  IN NO EVENT SHALL THE
+ AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
+ AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
+ CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
+Files: debian/*
+Copyright: 2014 Jonathan Riddell <jriddell@ubuntu.com>
+License: GPL-2+
+ This package is free software; you can redistribute it and/or modify
+ it under the terms of the GNU General Public License as published by
+ the Free Software Foundation; either version 2 of the License, or
+ (at your option) any later version.
+ .
+ This package is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program. If not, see <http://www.gnu.org/licenses/>
+ .
+ On Debian systems, the complete text of the GNU General
+ Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
