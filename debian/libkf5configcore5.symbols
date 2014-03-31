@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.97.0 amd64
+# SymbolsHelper-Confirmed: 4.98.0 amd64
 libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZN11KAuthorized16authorizeKActionERK7QString@Base 4.97.0
  _ZN11KAuthorized22allowUrlActionInternalERK7QStringRK4QUrlS5_@Base 4.97.0
@@ -139,7 +139,6 @@ libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZN19KCoreConfigSkeleton10ItemStringD2Ev@Base 4.97.0
  _ZN19KCoreConfigSkeleton10addItemIntERK7QStringRiiS2_@Base 4.97.0
  _ZN19KCoreConfigSkeleton10clearItemsEv@Base 4.97.0
- _ZN19KCoreConfigSkeleton10readConfigEv@Base 4.97.0
  _ZN19KCoreConfigSkeleton10removeItemERK7QString@Base 4.97.0
  _ZN19KCoreConfigSkeleton11ItemIntList10readConfigEP7KConfig@Base 4.97.0
  _ZN19KCoreConfigSkeleton11ItemIntList11setPropertyERK8QVariant@Base 4.97.0
@@ -165,7 +164,6 @@ libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZN19KCoreConfigSkeleton11qt_metacastEPKc@Base 4.97.0
  _ZN19KCoreConfigSkeleton11setDefaultsEv@Base 4.97.0
  _ZN19KCoreConfigSkeleton11useDefaultsEb@Base 4.97.0
- _ZN19KCoreConfigSkeleton11writeConfigEv@Base 4.97.0
  _ZN19KCoreConfigSkeleton12ItemDateTime10readConfigEP7KConfig@Base 4.97.0
  _ZN19KCoreConfigSkeleton12ItemDateTime11setPropertyERK8QVariant@Base 4.97.0
  _ZN19KCoreConfigSkeleton12ItemDateTimeC1ERK7QStringS3_R9QDateTimeRKS4_@Base 4.97.0
@@ -237,6 +235,9 @@ libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZN19KCoreConfigSkeleton16addItemULongLongERK7QStringRyyS2_@Base 4.97.0
  _ZN19KCoreConfigSkeleton16staticMetaObjectE@Base 4.97.0
  _ZN19KCoreConfigSkeleton17addItemStringListERK7QStringR11QStringListRKS3_S2_@Base 4.97.0
+ _ZN19KCoreConfigSkeleton4loadEv@Base 4.98.0
+ _ZN19KCoreConfigSkeleton4readEv@Base 4.98.0
+ _ZN19KCoreConfigSkeleton4saveEv@Base 4.98.0
  _ZN19KCoreConfigSkeleton6configEv@Base 4.97.0
  _ZN19KCoreConfigSkeleton7ItemInt10readConfigEP7KConfig@Base 4.97.0
  _ZN19KCoreConfigSkeleton7ItemInt11setMaxValueEi@Base 4.97.0
@@ -256,6 +257,8 @@ libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZN19KCoreConfigSkeleton7ItemUrlD1Ev@Base 4.97.0
  _ZN19KCoreConfigSkeleton7ItemUrlD2Ev@Base 4.97.0
  _ZN19KCoreConfigSkeleton7addItemEP19KConfigSkeletonItemRK7QString@Base 4.97.0
+ _ZN19KCoreConfigSkeleton7usrReadEv@Base 4.98.0
+ _ZN19KCoreConfigSkeleton7usrSaveEv@Base 4.98.0
  _ZN19KCoreConfigSkeleton8ItemBool10readConfigEP7KConfig@Base 4.97.0
  _ZN19KCoreConfigSkeleton8ItemBool11setPropertyERK8QVariant@Base 4.97.0
  _ZN19KCoreConfigSkeleton8ItemBoolC1ERK7QStringS3_Rbb@Base 4.97.0
