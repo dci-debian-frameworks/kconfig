@@ -1,7 +1,7 @@
 kconfig (4.99.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream beta release
-  * Add package libkf5config-data
+  * Add package libkf5config-data and libkf5config-bin
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:54 +0100
 
