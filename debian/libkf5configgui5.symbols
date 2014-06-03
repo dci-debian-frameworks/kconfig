@@ -1,8 +1,9 @@
-# SymbolsHelper-Confirmed: 4.97.0 amd64
+# SymbolsHelper-Confirmed: 4.100.0 amd64
 libKF5ConfigGui.so.5 libkf5configgui5 #MINVER#
  _ZN10KConfigGui13sessionConfigEv@Base 4.97.0
  _ZN10KConfigGui16hasSessionConfigEv@Base 4.97.0
  _ZN10KConfigGui17sessionConfigNameEv@Base 4.97.0
+ (optional=templinst)_ZN12KConfigGroup10writeEntryIiEEvPKcRK5QListIT_E6QFlagsIN11KConfigBase15WriteConfigFlagEE@Base 4.100.0
  _ZN13KConfigLoader14usrWriteConfigEv@Base 4.97.0
  _ZN13KConfigLoaderC1E28QExplicitlySharedDataPointerI13KSharedConfigEP9QIODeviceP7QObject@Base 4.97.0
  _ZN13KConfigLoaderC1ERK12KConfigGroupP9QIODeviceP7QObject@Base 4.97.0

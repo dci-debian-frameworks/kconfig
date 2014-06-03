@@ -75,7 +75,7 @@ Package: libkf5configcore5
 Architecture: any
 Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
-Depends: libkf5config-data (= ${binary:Version}),
+Depends: libkf5config-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: configuration settings framework for Qt
