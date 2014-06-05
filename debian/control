@@ -46,7 +46,6 @@ Description: configuration settings framework for Qt
 Package: libkf5configgui5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 Depends: libkf5config-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -74,7 +73,6 @@ Description: configuration settings framework for Qt
 Package: libkf5configcore5
 Architecture: any
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 Depends: libkf5config-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
@@ -101,7 +99,6 @@ Description: configuration settings framework for Qt
 
 Package: libkf5config-data
 Architecture: all
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
 Description: configuration settings framework for Qt
@@ -127,7 +124,6 @@ Description: configuration settings framework for Qt
 
 Package: libkf5config-bin
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: configuration settings framework for Qt
  KConfig provides an advanced configuration system. It is made of two
