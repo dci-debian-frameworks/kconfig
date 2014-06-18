@@ -1,3 +1,2 @@
 usr/lib/*/libKF5ConfigCore*.so.4*
 usr/lib/*/libKF5ConfigCore*.so.5
-usr/lib/*/libexec/kf5/kconf_update
