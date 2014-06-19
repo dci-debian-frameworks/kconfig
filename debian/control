@@ -19,6 +19,7 @@ Section: libdevel
 Architecture: any
 Depends: libkf5configcore5 (= ${binary:Version}),
          libkf5configgui5 (= ${binary:Version}),
+         libkf5config-bin (= ${binary:Version}),
          qtbase5-dev,
          ${misc:Depends},
          ${shlibs:Depends}
