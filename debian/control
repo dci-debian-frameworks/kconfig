@@ -19,6 +19,7 @@ Section: libdevel
 Architecture: any
 Depends: libkf5configcore5 (= ${binary:Version}),
          libkf5configgui5 (= ${binary:Version}),
+         libkf5config-bin (= ${binary:Version}),
          qtbase5-dev,
          ${misc:Depends},
          ${shlibs:Depends}
@@ -49,6 +50,7 @@ Multi-Arch: same
 Depends: libkf5config-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: libkf5config-bin (= ${binary:Version})
 Description: configuration settings framework for Qt
  KConfig provides an advanced configuration system. It is made of two
  parts: KConfigCore and KConfigGui.
@@ -76,6 +78,7 @@ Multi-Arch: same
 Depends: libkf5config-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
+Recommends: libkf5config-bin (= ${binary:Version})
 Description: configuration settings framework for Qt
  KConfig provides an advanced configuration system. It is made of two
  parts: KConfigCore and KConfigGui.
@@ -125,6 +128,8 @@ Description: configuration settings framework for Qt
 Package: libkf5config-bin
 Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Breaks: libkf5configcore5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
+Replaces: libkf5configcore5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
 Description: configuration settings framework for Qt
  KConfig provides an advanced configuration system. It is made of two
  parts: KConfigCore and KConfigGui.
@@ -144,7 +149,7 @@ Description: configuration settings framework for Qt
  .
  This package is part of KDE Frameworks 5.
  .
- This package contains the kreadconfig5 and kwriteconfig5 binaries.
+ This package contains runtime files for KConfig.
 
 Package: libkf5config5-dbg
 Priority: extra

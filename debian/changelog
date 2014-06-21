@@ -10,6 +10,15 @@ kconfig (4.100.0-0ubuntu1) UNRELEASED; urgency=medium
   * Remove useless Pre-Depends fields used for multiarch compat in
     releases older than trusty
 
+  [ José Manuel Santamaría Lema ]
+  * Move /usr/lib/*/libexec/kf5/kconf_update from libkf5configcore5 to
+    libkf5config-bin.
+  * Library packages now recommend libkf5config-bin.
+  * The -dev package depends on -bin because when building other KF5 components
+    cmake fails if kconf_update is not found; however this should not be
+    neccesary, it's an upstream bug, when solved this dependency should be
+    removed.
+
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:35:25 +0100
 
 kconfig (4.99.0-0ubuntu1) trusty; urgency=medium
