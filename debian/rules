@@ -7,4 +7,6 @@ override_dh_strip:
 	$(overridden_command) --dbg-package=libkf5config5-dbg
 
 override_dh_auto_test:
-	-$(overridden_command)
+	[ -e $(CURDIR)/debian/tests.home ] || mkdir $(CURDIR)/debian/tests.home
+	HOME=$(CURDIR)/debian/tests.home $(overridden_command)
+	rm -rf $(CURDIR)/debian/home/tests.home
