@@ -1,3 +1,9 @@
+kconfig (5.0.0-0ubuntu3) UNRELEASED; urgency=medium
+
+  * Tests are run with autopkgtest
+
+ -- Rohan Garg <rohangarg@kubuntu.org>  Fri, 11 Jul 2014 17:05:58 +0200
+
 kconfig (5.0.0-0ubuntu2) utopic; urgency=medium
 
   * Fix autopkg testsuite
