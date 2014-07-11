@@ -3,6 +3,7 @@ Upstream-Name: kconfig
 Source: https://projects.kde.org/projects/frameworks/kconfig
 
 Files: *
+       debian/*
 Copyright: 1996-2000 Matthias Kalle Dalheimer <kalle@kde.org>
            1998, 1999, 2000 Waldo Bastian <bastian@kde.org>
            1999-2000 Preston Brown <pbrown@kde.org>
@@ -23,6 +24,8 @@ Copyright: 1996-2000 Matthias Kalle Dalheimer <kalle@kde.org>
            2010 Martin Blumenstingl <darklight.xdarklight@googlemail.com> *
            2010 Canonical Ltd
            2013 Marco Martin <mart@kde.org>
+           2014 Jonathan Riddell <jriddell@ubuntu.com>
+           2014 Scarlett Clark <sgclark@kubuntu.org>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -143,22 +146,3 @@ License: MIT
  AUTHORS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN
  AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN
  CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Files: debian/*
-Copyright: 2014 Jonathan Riddell <jriddell@ubuntu.com>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
