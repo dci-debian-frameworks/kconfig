@@ -1,3 +1,10 @@
+kconfig (5.0.0-0ubuntu4) UNRELEASED; urgency=medium
+
+  * Update libraries *.install paths so a soname bump doesn't go
+    unnoticed.
+
+ -- José Manuel Santamaría Lema <panfaust@gmail.com>  Fri, 18 Jul 2014 17:03:31 +0200
+
 kconfig (5.0.0-0ubuntu3) utopic; urgency=medium
 
   * Tests are run with autopkgtest
