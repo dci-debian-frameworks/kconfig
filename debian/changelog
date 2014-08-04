@@ -1,9 +1,13 @@
-kconfig (5.0.0-0ubuntu4) UNRELEASED; urgency=medium
+kconfig (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ José Manuel Santamaría Lema ]
   * Update libraries *.install paths so a soname bump doesn't go
     unnoticed.
 
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Fri, 18 Jul 2014 17:03:31 +0200
+  [ Scarlett Clark ]
+  * New upstream release
+
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 18:41:27 -0700
 
 kconfig (5.0.0-0ubuntu3) utopic; urgency=medium
 
