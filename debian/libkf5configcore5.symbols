@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 4.100.0 amd64
+# SymbolsHelper-Confirmed: 5.3.0 amd64 i386
 libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZN11KAuthorized16authorizeKActionERK7QString@Base 4.97.0
  _ZN11KAuthorized22allowUrlActionInternalERK7QStringRK4QUrlS5_@Base 4.97.0
@@ -399,9 +399,9 @@ libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZNK12KConfigGroup9readEntryERK7QStringRK5QListI8QVariantE@Base 4.97.0
  _ZNK12KConfigGroup9readEntryERK7QStringRK8QVariant@Base 4.97.0
  _ZNK12KConfigGroup9readEntryERK7QStringS2_@Base 4.97.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryI5QRectEET_PKcRKS2_@Base 4.100.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 4.100.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryI6QPointEET_PKcRKS2_@Base 4.100.0
+ (optional=templinst|arch=amd64)_ZNK12KConfigGroup9readEntryI5QRectEET_PKcRKS2_@Base 5.3.0
+ (optional=templinst|arch=amd64)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 5.3.0
+ (optional=templinst|arch=amd64)_ZNK12KConfigGroup9readEntryI6QPointEET_PKcRKS2_@Base 5.3.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI9QDateTimeEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEE5QListIT_EPKcRKS3_@Base 4.100.0
@@ -514,6 +514,7 @@ libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZNK7KConfig8entryMapERK7QString@Base 4.97.0
  _ZNK7KConfig9groupImplERK10QByteArray@Base 4.97.0
  _ZNK7KConfig9groupListEv@Base 4.97.0
+ _ZNK7KConfig9openFlagsEv@Base 5.2.0+git20141003
  _ZTI11KConfigBase@Base 4.97.0
  _ZTI11QSharedData@Base 4.97.0
  _ZTI12KConfigGroup@Base 4.97.0
