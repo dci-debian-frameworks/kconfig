@@ -19,10 +19,10 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kconfig.git
 Package: libkf5config-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5configcore5 (= ${binary:Version}),
+Depends: libkf5config-bin (= ${binary:Version}),
+         libkf5configcore5 (= ${binary:Version}),
          libkf5configgui5 (= ${binary:Version}),
-         libkf5config-bin (= ${binary:Version}),
-         qtbase5-dev,
+         qtbase5-dev (>= 5.2.0),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: configuration settings framework for Qt
