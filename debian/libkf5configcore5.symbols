@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.8.0 arm64 armel armhf hppa kfreebsd-amd64 powerpc ppc64el
+# SymbolsHelper-Confirmed: 5.9.0 hurd-i386 i386 kfreebsd-i386 mips mipsel ppc64 s390x
 libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZN11KAuthorized16authorizeKActionERK7QString@Base 4.97.0
  _ZN11KAuthorized22allowUrlActionInternalERK7QStringRK4QUrlS5_@Base 4.97.0
