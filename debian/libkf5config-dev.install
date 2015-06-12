@@ -1,4 +1,3 @@
-usr/bin/kconfig_compiler_kf5
 usr/include/KF5/KConfigCore/
 usr/include/KF5/KConfigGui/
 usr/include/KF5/kconfig_version.h
