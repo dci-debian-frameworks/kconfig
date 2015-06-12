@@ -19,9 +19,9 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kconfig.git
 Package: libkf5config-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: same
+Multi-Arch: foreign
 Depends: libkf5config-bin (= ${binary:Version}),
-         libkf5config-bin-dev:any (= ${binary:Version}),
+         libkf5config-bin-dev (= ${binary:Version}),
          libkf5configcore5 (= ${binary:Version}),
          libkf5configgui5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
@@ -51,9 +51,9 @@ Description: configuration settings framework for Qt
 Package: libkf5config-bin-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: no
-Breaks: libkf5config-dev (<< 5.11)
-Replaces: libkf5config-dev (<< 5.11)
+Multi-Arch: foreign
+Breaks: libkf5config-dev (<< 5.10+git20150714)
+Replaces: libkf5config-dev (<< 5.10+git20150714)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: configuration settings framework for Qt -- binary package
  KConfig provides an advanced configuration system. It is made of two
