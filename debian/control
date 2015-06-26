@@ -19,7 +19,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/kconfig.git
 Package: libkf5config-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Depends: libkf5config-bin (= ${binary:Version}),
          libkf5config-bin-dev (= ${binary:Version}),
          libkf5configcore5 (= ${binary:Version}),
