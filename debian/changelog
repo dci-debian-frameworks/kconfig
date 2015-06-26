@@ -5,6 +5,7 @@ kconfig (5.11.0-1~) UNRELEASED; urgency=medium
   * New upstream release (5.11.0).
   * Revert the -dev package to MA same.
   * Update symbols files.
+  * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Thu, 25 Jun 2015 15:35:55 +0200
 
