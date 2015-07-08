@@ -2,6 +2,7 @@ kconfig (5.12.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.12.0).
   * Update install files.
+  * Update symbols files (Closes: #791727)
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 07 Jul 2015 17:36:33 +0200
 
