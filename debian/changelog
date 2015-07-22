@@ -1,6 +1,12 @@
 kconfig (5.12.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * New upstream release
+
+  [ José Manuel Santamaría Lema ]
+  * Update symbols files:
+    - Mark as optional the non-optional symbols gone after building with GCC 5
+    - Keep the optional symbols gone after building with GCC 5
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 10 Jul 2015 07:59:45 -0700
 

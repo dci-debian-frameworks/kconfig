@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.0 amd64
+# SymbolsHelper-Confirmed: 5.12.0 amd64
 libKF5ConfigGui.so.5 libkf5configgui5 #MINVER#
  _ZN10KConfigGui13sessionConfigEv@Base 4.97.0
  _ZN10KConfigGui16hasSessionConfigEv@Base 4.97.0
@@ -26,23 +26,23 @@ libKF5ConfigGui.so.5 libkf5configgui5 #MINVER#
  _ZN15KConfigSkeleton8ItemFont11setPropertyERK8QVariant@Base 4.97.0
  _ZN15KConfigSkeleton8ItemFontC1ERK7QStringS3_R5QFontRKS4_@Base 4.97.0
  _ZN15KConfigSkeleton8ItemFontC2ERK7QStringS3_R5QFontRKS4_@Base 4.97.0
- _ZN15KConfigSkeleton8ItemFontD0Ev@Base 4.97.0
- _ZN15KConfigSkeleton8ItemFontD1Ev@Base 4.97.0
- _ZN15KConfigSkeleton8ItemFontD2Ev@Base 4.97.0
+#MISSING: 5.12.0# (optional)_ZN15KConfigSkeleton8ItemFontD0Ev@Base 4.97.0
+#MISSING: 5.12.0# (optional)_ZN15KConfigSkeleton8ItemFontD1Ev@Base 4.97.0
+#MISSING: 5.12.0# (optional)_ZN15KConfigSkeleton8ItemFontD2Ev@Base 4.97.0
  _ZN15KConfigSkeleton9ItemColor10readConfigEP7KConfig@Base 4.97.0
  _ZN15KConfigSkeleton9ItemColor11setPropertyERK8QVariant@Base 4.97.0
  _ZN15KConfigSkeleton9ItemColorC1ERK7QStringS3_R6QColorRKS4_@Base 4.97.0
  _ZN15KConfigSkeleton9ItemColorC2ERK7QStringS3_R6QColorRKS4_@Base 4.97.0
- _ZN15KConfigSkeleton9ItemColorD0Ev@Base 4.97.0
- _ZN15KConfigSkeleton9ItemColorD1Ev@Base 4.97.0
- _ZN15KConfigSkeleton9ItemColorD2Ev@Base 4.97.0
+#MISSING: 5.12.0# (optional)_ZN15KConfigSkeleton9ItemColorD0Ev@Base 4.97.0
+#MISSING: 5.12.0# (optional)_ZN15KConfigSkeleton9ItemColorD1Ev@Base 4.97.0
+#MISSING: 5.12.0# (optional)_ZN15KConfigSkeleton9ItemColorD2Ev@Base 4.97.0
  _ZN15KConfigSkeletonC1E28QExplicitlySharedDataPointerI13KSharedConfigEP7QObject@Base 4.97.0
  _ZN15KConfigSkeletonC1ERK7QStringP7QObject@Base 4.97.0
  _ZN15KConfigSkeletonC2E28QExplicitlySharedDataPointerI13KSharedConfigEP7QObject@Base 4.97.0
  _ZN15KConfigSkeletonC2ERK7QStringP7QObject@Base 4.97.0
- _ZN15KConfigSkeletonD0Ev@Base 4.97.0
- _ZN15KConfigSkeletonD1Ev@Base 4.97.0
- _ZN15KConfigSkeletonD2Ev@Base 4.97.0
+#MISSING: 5.12.0# (optional)_ZN15KConfigSkeletonD0Ev@Base 4.97.0
+#MISSING: 5.12.0# (optional)_ZN15KConfigSkeletonD1Ev@Base 4.97.0
+#MISSING: 5.12.0# (optional)_ZN15KConfigSkeletonD2Ev@Base 4.97.0
  _ZN17KStandardShortcut10completionEv@Base 4.97.0
  _ZN17KStandardShortcut10fullScreenEv@Base 4.97.0
  _ZN17KStandardShortcut10rotateDownEv@Base 4.97.0
