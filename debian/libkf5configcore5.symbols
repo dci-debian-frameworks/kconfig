@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.9.0 hurd-i386 i386 kfreebsd-i386 mips mipsel ppc64 s390x
+# SymbolsHelper-Confirmed: 5.12.0 hurd-i386 i386 kfreebsd-i386 mips mipsel ppc64 s390x x32
 libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZN11KAuthorized16authorizeKActionERK7QString@Base 4.97.0
  _ZN11KAuthorized22allowUrlActionInternalERK7QStringRK4QUrlS5_@Base 4.97.0
@@ -399,9 +399,9 @@ libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZNK12KConfigGroup9readEntryERK7QStringRK5QListI8QVariantE@Base 4.97.0
  _ZNK12KConfigGroup9readEntryERK7QStringRK8QVariant@Base 4.97.0
  _ZNK12KConfigGroup9readEntryERK7QStringS2_@Base 4.97.0
- (optional=templinst|arch=amd64 arm64 armel armhf kfreebsd-amd64 powerpc ppc64el)_ZNK12KConfigGroup9readEntryI5QRectEET_PKcRKS2_@Base 5.3.0
- (optional=templinst)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 5.3.0
- (optional=templinst|arch=amd64 arm64 hppa kfreebsd-amd64 ppc64el)_ZNK12KConfigGroup9readEntryI6QPointEET_PKcRKS2_@Base 5.3.0
+ (optional=templinst|arch=amd64 arm64 armel armhf kfreebsd-amd64 powerpc ppc64el x32)_ZNK12KConfigGroup9readEntryI5QRectEET_PKcRKS2_@Base 5.3.0
+ (optional=templinst|arch=x32)_ZNK12KConfigGroup9readEntryI5QSizeEET_PKcRKS2_@Base 5.3.0
+ (optional=templinst|arch=amd64 arm64 hppa kfreebsd-amd64 ppc64el x32)_ZNK12KConfigGroup9readEntryI6QPointEET_PKcRKS2_@Base 5.3.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryI9QDateTimeEET_PKcRKS2_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIbEET_PKcRKS1_@Base 4.100.0
  (optional=templinst)_ZNK12KConfigGroup9readEntryIiEE5QListIT_EPKcRKS3_@Base 4.100.0
