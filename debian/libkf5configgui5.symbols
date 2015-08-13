@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.11.0 amd64
+# SymbolsHelper-Confirmed: 5.13.0 amd64
 libKF5ConfigGui.so.5 libkf5configgui5 #MINVER#
  _ZN10KConfigGui13sessionConfigEv@Base 4.97.0
  _ZN10KConfigGui16hasSessionConfigEv@Base 4.97.0
