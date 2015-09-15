@@ -1,8 +1,8 @@
-kconfig (5.14.0-1~) UNRELEASED; urgency=medium
+kconfig (5.14.0-1) unstable; urgency=medium
 
   * New upstream release (5.14.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 14 Sep 2015 00:23:47 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:47:48 +0200
 
 kconfig (5.13.0-1) unstable; urgency=medium
 
