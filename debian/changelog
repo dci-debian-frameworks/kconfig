@@ -1,8 +1,8 @@
-kconfig (5.14.0-0ubuntu1) UNRELEASED; urgency=medium
+kconfig (5.14.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
- -- Clive Johnston <clivejo@aol.com>  Mon, 14 Sep 2015 19:41:49 +0100
+ -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:11:18 +0100
 
 kconfig (5.13.0-0ubuntu1) wily; urgency=medium
 
