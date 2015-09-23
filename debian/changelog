@@ -1,6 +1,7 @@
 kconfig (5.14.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
+  * Removing missing symbols after automatic update
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:11:18 +0100
 
