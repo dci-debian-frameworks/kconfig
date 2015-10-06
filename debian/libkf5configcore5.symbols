@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.14.0 alpha amd64 arm64 armel armhf hppa hurd-i386 i386 kfreebsd-amd64 kfreebsd-i386 mips mips64el mipsel powerpc ppc64 ppc64el s390x x32
+# SymbolsHelper-Confirmed: 5.15.0 amd64
 libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZN11KAuthorized16authorizeKActionERK7QString@Base 4.97.0
  _ZN11KAuthorized22allowUrlActionInternalERK7QStringRK4QUrlS5_@Base 4.97.0
@@ -353,6 +353,7 @@ libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZNK12KDesktopFile11readDocPathEv@Base 4.97.0
  _ZNK12KDesktopFile12desktopGroupEv@Base 4.97.0
  _ZNK12KDesktopFile13hasDeviceTypeEv@Base 4.97.0
+ _ZNK12KDesktopFile13readMimeTypesEv@Base 5.15.0
  _ZNK12KDesktopFile14hasActionGroupERK7QString@Base 4.97.0
  _ZNK12KDesktopFile15readGenericNameEv@Base 4.97.0
  _ZNK12KDesktopFile18hasApplicationTypeEv@Base 4.97.0
