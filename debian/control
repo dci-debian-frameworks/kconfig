@@ -51,8 +51,8 @@ Package: libkf5config-bin-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: foreign
-Breaks: libkf5config-dev (<< 5.10+git20150714)
-Replaces: libkf5config-dev (<< 5.10+git20150714)
+Breaks: libkf5config-dev (<< 5.15.0-2~)
+Replaces: libkf5config-dev (<< 5.15.0-2~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: configuration settings framework for Qt -- binary package
  KConfig provides an advanced configuration system. It is made of two

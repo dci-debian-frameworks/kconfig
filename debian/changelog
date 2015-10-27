@@ -1,6 +1,6 @@
 kconfig (5.15.0-2~) UNRELEASED; urgency=medium
 
-  * 
+  * Move ConfigCompiler cmake files to the -bin-dev package.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Oct 2015 15:17:21 +0100
 
