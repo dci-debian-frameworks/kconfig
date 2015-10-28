@@ -50,7 +50,7 @@ Description: configuration settings framework for Qt
 Package: libkf5config-bin-dev
 Section: libdevel
 Architecture: any
-Multi-Arch: foreign
+Multi-Arch: same
 Breaks: libkf5config-dev (<< 5.15.0-2~)
 Replaces: libkf5config-dev (<< 5.15.0-2~)
 Depends: ${misc:Depends}, ${shlibs:Depends}
