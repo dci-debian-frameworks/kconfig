@@ -1,3 +1,17 @@
+kconfig (5.15.0-2~) UNRELEASED; urgency=medium
+
+  * Move ConfigCompiler cmake files to the -bin-dev package.
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Oct 2015 15:17:21 +0100
+
+kconfig (5.15.0-1) unstable; urgency=medium
+
+  * New upstream release (5.15.0).
+  * Update symbols files from buildds logs (5.14.0-1).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:15:54 +0200
+
 kconfig (5.15.0-0ubuntu2) UNRELEASED; urgency=medium
 
   * Vivid backport. 
@@ -14,6 +28,12 @@ kconfig (5.15.0-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:44:17 +0100
 
+kconfig (5.14.0-1) unstable; urgency=medium
+
+  * New upstream release (5.14.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:47:48 +0200
+
 kconfig (5.14.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
@@ -21,11 +41,27 @@ kconfig (5.14.0-0ubuntu1) wily; urgency=medium
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:11:18 +0100
 
+kconfig (5.13.0-1) unstable; urgency=medium
+
+  * New upstream release (5.13.0).
+  * Update symbols files from buildds logs (5.12.0-1).
+  * Update symbols files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 13 Aug 2015 14:44:13 +0200
+
 kconfig (5.13.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 12:53:11 +0200
+
+kconfig (5.12.0-1) unstable; urgency=medium
+
+  * New upstream release (5.12.0).
+  * Update install files.
+  * Update symbols files (Closes: #791727)
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:42:54 +0200
 
 kconfig (5.12.0-0ubuntu1) wily; urgency=medium
 
@@ -41,6 +77,17 @@ kconfig (5.12.0-0ubuntu1) wily; urgency=medium
   * Vivid backport. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:25:41 +0200
+
+kconfig (5.11.0-1) unstable; urgency=medium
+
+  * New upstream release (5.10.0).
+  * Update symbols files from buildds logs (5.9.0-1).
+  * New upstream release (5.11.0).
+  * Revert the -dev package to MA same.
+  * Update symbols files.
+  * Update copyright information.
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Jun 2015 17:26:46 +0200
 
 kconfig (5.11.0-0ubuntu1) UNRELEASED; urgency=medium
 
