@@ -148,6 +148,7 @@ Architecture: any
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Breaks: libkf5configcore5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
 Replaces: libkf5configcore5 (<= 4.100.0-0ubuntu1~ubuntu14.10~ppa1)
+Multi-Arch: foreign
 Description: configuration settings framework for Qt
  KConfig provides an advanced configuration system. It is made of two
  parts: KConfigCore and KConfigGui.
