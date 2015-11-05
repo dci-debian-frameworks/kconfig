@@ -1,6 +1,13 @@
 kconfig (5.15.0-2~) UNRELEASED; urgency=medium
 
+  [ Maximiliano Curia ]
   * Move ConfigCompiler cmake files to the -bin-dev package.
+
+  [ Scarlett Clark ]
+  * Everything is failing due to a lack of kconf_update binary
+    needed at buildtime. Adding libkf5config-bin as a depend
+    to libkf5config-dev ranther than updating every package 
+    with the build dependency. 
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Oct 2015 15:17:21 +0100
 

@@ -19,7 +19,8 @@ Package: libkf5config-dev
 Section: libdevel
 Architecture: any
 Multi-Arch: same
-Depends: libkf5config-bin-dev (= ${binary:Version}),
+Depends: libkf5config-bin (= ${binary:Version}),
+         libkf5config-bin-dev (= ${binary:Version}),
          libkf5configcore5 (= ${binary:Version}),
          libkf5configgui5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
