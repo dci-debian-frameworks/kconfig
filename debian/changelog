@@ -1,3 +1,10 @@
+kconfig (5.16.0-1) unstable; urgency=medium
+
+  * Move ConfigCompiler cmake files to the -bin-dev package.
+  * New upstream release (5.16.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:30 +0100
+
 kconfig (5.15.0-0ubuntu3) UNRELEASED; urgency=medium
 
   * Fix merge madness.
