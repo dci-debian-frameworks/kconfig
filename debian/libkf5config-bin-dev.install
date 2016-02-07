@@ -1,2 +1,2 @@
-usr/lib/*/libexec/kf5/kconfig_compiler_kf5
 usr/lib/*/cmake/KF5Config/KF5ConfigCompilerTargets*.cmake
+usr/lib/*/libexec/kf5/kconfig_compiler_kf5
