@@ -1,13 +1,14 @@
-kconfig (5.20.0-1~1.gbp4927a8) UNRELEASED; urgency=medium
+kconfig (5.20.0-1~2.gbp46f946) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @4927a8c2a011082a4ddf69961ba49da28c113bc4 **
+  ** SNAPSHOT build @46f946d718a22cc3547f7b8dbf90d1ac944ec8fc **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
   * debian/control: Update Vcs-Browser and Vcs-Git fields
   * debian/control: Update Vcs-Browser and Vcs-Git fields
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 23 Mar 2016 22:21:30 +0100
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 25 Mar 2016 13:29:27 +0100
 
 kconfig (5.19.0-1) experimental; urgency=medium
 
