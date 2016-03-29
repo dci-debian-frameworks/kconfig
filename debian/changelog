@@ -1,6 +1,6 @@
-kconfig (5.20.0-1~6.gbp51293a) UNRELEASED; urgency=medium
+kconfig (5.20.0-1~7.gbpd100c9) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @51293a028251cb2a7faa4e5b4bd5f3afcc0f9e14 **
+  ** SNAPSHOT build @d100c9625f7525a7a3d77236b8fc107c754f9dce **
 
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
   * Add upstream metadata (DEP-12)
@@ -11,8 +11,9 @@ kconfig (5.20.0-1~6.gbp51293a) UNRELEASED; urgency=medium
   * UNRELEASED
   * UNRELEASED
   * UNRELEASED
+  * UNRELEASED
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 13:46:24 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Tue, 29 Mar 2016 23:24:39 +0200
 
 kconfig (5.19.0-1) experimental; urgency=medium
 
