@@ -1,7 +1,7 @@
 Tests: testsuite
 Depends: @, @builddeps@, build-essential,
-         xvfb, xauth, dbus-x11, kinit
-Restrictions: build-needed
+         xvfb, xauth, dbus-x11, kinit, xserver-xephyr
+Restrictions: build-needed, allow-stderr
 
 Tests: acc
 Depends: @, dh-acc, exuberant-ctags
