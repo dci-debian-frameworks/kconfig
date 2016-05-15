@@ -1,3 +1,11 @@
+kconfig (5.22.0-1~1.gbpa461ad) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @a461ad4ac511de12dfae99abb271a647dd21210b **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sun, 15 May 2016 13:20:40 +0200
+
 kconfig (5.21.0-1) experimental; urgency=medium
 
   [ Maximiliano Curia ]
