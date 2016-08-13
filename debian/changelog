@@ -1,10 +1,12 @@
-kconfig (5.24.0-1~1.gbpea827c) UNRELEASED; urgency=medium
+kconfig (5.25.0-1~1.gbp15bec2) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @ea827c9c1659cb255c72f109e86652e810d36c5b **
+  ** SNAPSHOT build @15bec209eb409f10f1af71433a14bfbbaf95294c **
 
   * Update build-deps and deps with the info from cmake
+  * Update build-deps and deps with the info from cmake
+  * Update symbols files.
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 09 Jul 2016 13:20:27 +0200
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 13 Aug 2016 13:20:12 +0200
 
 kconfig (5.23.0-1) unstable; urgency=medium
 
