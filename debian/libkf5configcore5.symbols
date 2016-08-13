@@ -1,5 +1,6 @@
-# SymbolsHelper-Confirmed: 5.16.0 sparc64
+# SymbolsHelper-Confirmed: 5.24.0 amd64 armhf i386
 libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
+ _ZN11KAuthorized15authorizeActionERK7QString@Base 5.24.0
  _ZN11KAuthorized16authorizeKActionERK7QString@Base 4.97.0
  _ZN11KAuthorized22allowUrlActionInternalERK7QStringRK4QUrlS5_@Base 4.97.0
  _ZN11KAuthorized22authorizeControlModuleERK7QString@Base 4.97.0
