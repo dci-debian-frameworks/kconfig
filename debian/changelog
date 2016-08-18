@@ -1,19 +1,13 @@
-kconfig (5.25.0-1~2.gbp00c876) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @00c876a06908e7811dc8b100acee58f4980000ce **
+kconfig (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
-  ** SNAPSHOT build @15bec209eb409f10f1af71433a14bfbbaf95294c **
-
   * Update build-deps and deps with the info from cmake
-  * Update build-deps and deps with the info from cmake
-  * Update symbols files.
   * Update symbols files.
 
   [ Maximiliano Curia ]
   * Bump group breaks (5.25)
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Wed, 17 Aug 2016 22:20:18 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 18 Aug 2016 17:20:18 +0200
 
 kconfig (5.23.0-1) unstable; urgency=medium
 
