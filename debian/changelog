@@ -1,3 +1,11 @@
+kconfig (5.26.0-1~1.gbpf79fc3) UNRELEASED; urgency=medium
+
+  ** SNAPSHOT build @f79fc3d173027ddf31f19c62c3ecb5c526b75fab **
+
+  * Update build-deps and deps with the info from cmake
+
+ -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 10 Sep 2016 13:20:49 +0200
+
 kconfig (5.25.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
