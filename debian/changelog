@@ -1,11 +1,14 @@
-kconfig (5.27.0-1~1.gbp5b2881) UNRELEASED; urgency=medium
+kconfig (5.27.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @5b28810004afe0f87bdefa31997e49c6d835848f **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Update symbols files from buildds logs (5.26.0-1).
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Sat, 08 Oct 2016 13:20:39 +0200
+  [ Maximiliano Curia ]
+  * New upstream release (5.27)
+  * Bump group breaks (5.27)
+
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 15 Oct 2016 16:48:52 +0200
 
 kconfig (5.26.0-1) unstable; urgency=medium
 
