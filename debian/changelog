@@ -1,6 +1,7 @@
 kconfig (5.28.0-2~) UNRELEASED; urgency=medium
 
-  * 
+  * Add new upstream patch:
+    Sanitize-shortcut-list-on-read-write-from-kdeglobals.patch
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 31 Mar 2017 14:33:26 +0200
 
