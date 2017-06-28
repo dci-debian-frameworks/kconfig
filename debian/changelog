@@ -40,6 +40,13 @@ kconfig (5.29.0-0neon) xenial; urgency=medium
 
  -- Neon CI <neon@kde.org>  Fri, 09 Dec 2016 19:06:24 +0000
 
+kconfig (5.28.0-2) unstable; urgency=medium
+
+  * Add new upstream patch:
+    Sanitize-shortcut-list-on-read-write-from-kdeglobals.patch
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 31 Mar 2017 14:35:36 +0200
+
 kconfig (5.28.0-1) unstable; urgency=medium
 
   [ Automatic packaging ]
