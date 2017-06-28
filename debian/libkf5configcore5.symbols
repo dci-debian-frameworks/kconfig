@@ -1,4 +1,4 @@
-# SymbolsHelper-Confirmed: 5.27.0 m68k
+# SymbolsHelper-Confirmed: 5.35.0 amd64
 libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZN11KAuthorized15authorizeActionERK7QString@Base 5.24.0
  _ZN11KAuthorized16authorizeKActionERK7QString@Base 4.97.0
@@ -92,19 +92,6 @@ libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZN13KSharedConfigD0Ev@Base 4.97.0
  _ZN13KSharedConfigD1Ev@Base 4.97.0
  _ZN13KSharedConfigD2Ev@Base 4.97.0
- _ZN14KConfigBackend11qt_metacallEN11QMetaObject4CallEiPPv@Base 4.97.0
- _ZN14KConfigBackend11qt_metacastEPKc@Base 4.97.0
- _ZN14KConfigBackend15setLastModifiedERK9QDateTime@Base 4.97.0
- _ZN14KConfigBackend16registerMappingsERK9KEntryMap@Base 4.97.0
- _ZN14KConfigBackend16setLocalFilePathERK7QString@Base 4.97.0
- _ZN14KConfigBackend16staticMetaObjectE@Base 4.97.0
- _ZN14KConfigBackend6createERK7QStringS2_@Base 4.97.0
- _ZN14KConfigBackend7setSizeEx@Base 4.97.0
- _ZN14KConfigBackendC1Ev@Base 4.97.0
- _ZN14KConfigBackendC2Ev@Base 4.97.0
- _ZN14KConfigBackendD0Ev@Base 4.97.0
- _ZN14KConfigBackendD1Ev@Base 4.97.0
- _ZN14KConfigBackendD2Ev@Base 4.97.0
  _ZN14KEMailSettings10setDefaultERK7QString@Base 4.97.0
  _ZN14KEMailSettings10setProfileERK7QString@Base 4.97.0
  _ZN14KEMailSettings10setSettingENS_7SettingERK7QString@Base 4.97.0
@@ -370,10 +357,6 @@ libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZNK12KDesktopFile9noDisplayEv@Base 4.97.0
  _ZNK12KDesktopFile9sortOrderEv@Base 4.97.0
  _ZNK13KSharedConfig9groupImplERK10QByteArray@Base 4.97.0
- _ZNK14KConfigBackend10metaObjectEv@Base 4.97.0
- _ZNK14KConfigBackend12lastModifiedEv@Base 4.97.0
- _ZNK14KConfigBackend4sizeEv@Base 4.97.0
- _ZNK14KConfigBackend8filePathEv@Base 4.97.0
  _ZNK14KEMailSettings10getSettingENS_7SettingE@Base 4.97.0
  _ZNK14KEMailSettings18currentProfileNameEv@Base 4.97.0
  _ZNK14KEMailSettings18defaultProfileNameEv@Base 4.97.0
@@ -461,7 +444,6 @@ libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZTI12KConfigGroup@Base 4.97.0
  _ZTI12KDesktopFile@Base 4.97.0
  _ZTI13KSharedConfig@Base 4.97.0
- _ZTI14KConfigBackend@Base 4.97.0
  _ZTI19KConfigSkeletonItem@Base 4.97.0
  _ZTI19KCoreConfigSkeleton@Base 4.97.0
  _ZTI29KConfigCompilerSignallingItem@Base 4.97.0
@@ -491,7 +473,6 @@ libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZTS12KConfigGroup@Base 4.97.0
  _ZTS12KDesktopFile@Base 4.97.0
  _ZTS13KSharedConfig@Base 4.97.0
- _ZTS14KConfigBackend@Base 4.97.0
  _ZTS19KConfigSkeletonItem@Base 4.97.0
  _ZTS19KCoreConfigSkeleton@Base 4.97.0
  _ZTS29KConfigCompilerSignallingItem@Base 4.97.0
@@ -520,7 +501,6 @@ libKF5ConfigCore.so.5 libkf5configcore5 #MINVER#
  _ZTV12KConfigGroup@Base 4.97.0
  _ZTV12KDesktopFile@Base 4.97.0
  _ZTV13KSharedConfig@Base 4.97.0
- _ZTV14KConfigBackend@Base 4.97.0
  _ZTV19KConfigSkeletonItem@Base 4.97.0
  _ZTV19KCoreConfigSkeleton@Base 4.97.0
  _ZTV29KConfigCompilerSignallingItem@Base 4.97.0
