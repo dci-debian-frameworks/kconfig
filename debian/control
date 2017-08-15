@@ -160,6 +160,7 @@ Description: configuration settings framework for Qt (documentation)
  This package is part of KDE Frameworks 5.
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5configcore5
 Architecture: any
