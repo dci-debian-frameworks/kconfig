@@ -280,41 +280,12 @@ kconfig (5.18.0-1) experimental; urgency=medium
 
  -- Maximiliano Curia <maxy@debian.org>  Wed, 27 Jan 2016 13:33:24 +0100
 
-kconfig (5.18.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  [ Scarlett Clark ]
-  * New upstream release Xenial
-
-  [ Philip Muškovac ]
-  * New upstream release
-
- -- Philip Muškovac <yofel@kubuntu.org>  Wed, 06 Jan 2016 14:57:34 +0100
-
 kconfig (5.16.0-1) unstable; urgency=medium
 
   * Move ConfigCompiler cmake files to the -bin-dev package.
   * New upstream release (5.16.0).
 
  -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:30 +0100
-
-kconfig (5.15.0-0ubuntu3) UNRELEASED; urgency=medium
-
-  * Fix merge madness.
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 11 Nov 2015 19:15:41 -0800
-
-kconfig (5.15.0-2~) UNRELEASED; urgency=medium
-
-  [ Maximiliano Curia ]
-  * Move ConfigCompiler cmake files to the -bin-dev package.
-
-  [ Scarlett Clark ]
-  * Everything is failing due to a lack of kconf_update binary
-    needed at buildtime. Adding libkf5config-bin as a depend
-    to libkf5config-dev ranther than updating every package 
-    with the build dependency. 
-
- -- Maximiliano Curia <maxy@debian.org>  Tue, 27 Oct 2015 15:17:21 +0100
 
 kconfig (5.15.0-1) unstable; urgency=medium
 
@@ -386,7 +357,7 @@ kconfig (5.12.0-0ubuntu1) wily; urgency=medium
     - Keep the optional symbols gone after building with GCC 5
 
   [ Scarlett Clark ]
-  * Vivid backport. 
+  * Vivid backport.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 03 Aug 2015 14:25:41 +0200
 
@@ -400,12 +371,6 @@ kconfig (5.11.0-1) unstable; urgency=medium
   * Update copyright information.
 
  -- Maximiliano Curia <maxy@debian.org>  Fri, 26 Jun 2015 17:26:46 +0200
-
-kconfig (5.11.0-0ubuntu1) UNRELEASED; urgency=medium
-
-  * Vivid backport
-
- -- Scarlett Clark <sgclark@kubuntu.org>  Wed, 08 Jul 2015 08:08:37 -0700
 
 kconfig (5.11.0-1) unstable; urgency=medium
 
@@ -553,7 +518,7 @@ kconfig (5.0.0-0ubuntu1) utopic; urgency=medium
 
   [ Jonathan Riddell ]
   * Initial stable upstream release
-  * Change copyright to match upstream 
+  * Change copyright to match upstream
 
  -- Rohan Garg <rohangarg@kubuntu.org>  Wed, 09 Jul 2014 15:25:32 +0200
 
