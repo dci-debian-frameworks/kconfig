@@ -1,8 +1,12 @@
-kconfig (5.41.0-1~) UNRELEASED; urgency=medium
+kconfig (5.41.0-1) experimental; urgency=medium
 
   * New upstream release (5.41.0).
+  * Drop duplicated file
+  * Update build-deps and deps with the info from cmake
+  * Bump group breaks (5.41)
+  * Release to experimental
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 12 Dec 2017 10:07:05 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 10:42:15 -0300
 
 kconfig (5.41.0-0neon) xenial; urgency=medium
 
