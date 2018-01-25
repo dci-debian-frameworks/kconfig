@@ -1,8 +1,17 @@
 kconfig (5.42.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.42.0).
+  * Add link options as-needed
+  * Bump debhelper build-dep and compat to 11.
+  * Build without build_stamp
+  * Allow packagers set kconfig_compiler install dir
+  * Fix cross compilation issues
+    + Move kconfig_compiler to an arch independant path
+    + Move cmake files back to the -dev package
+    + Rename -bin-dev package to -dev-bin
+    Thanks to Helmut Grohne for the analysis and suggestions (Closes: 887452)
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 22 Jan 2018 16:23:50 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 25 Jan 2018 11:18:20 -0300
 
 kconfig (5.41.0-1) experimental; urgency=medium
 
