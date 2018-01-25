@@ -1,0 +1,36 @@
+From: Maximiliano Curia <maxy@gnuservers.com.ar>
+Date: Thu, 25 Jan 2018 11:02:56 -0300
+Subject: Allow packagers set kconfig_compiler install dir
+
+Origin: Debian
+Bug-Debian: https://bugs.debian.org/887452
+Last-Update: 2018-01-25
+---
+ CMakeLists.txt                      | 3 +++
+ src/kconfig_compiler/CMakeLists.txt | 2 +-
+ 2 files changed, 4 insertions(+), 1 deletion(-)
+
+diff --git a/CMakeLists.txt b/CMakeLists.txt
+index e06332d..05ffb9c 100644
+--- a/CMakeLists.txt
++++ b/CMakeLists.txt
+@@ -46,6 +46,9 @@ if (IS_DIRECTORY "${CMAKE_CURRENT_SOURCE_DIR}/po")
+    ecm_install_po_files_as_qm(po)
+ endif()
+ 
++# allow kconfig_compiler install dir to be set as a configure argument
++set(KCONFIG_COMPILER_INSTALL_DIR "${KDE_INSTALL_LIBEXECDIR_KF5}" CACHE STRING
++   "Set directory for kconfig compiler tool")
+ 
+ # create a Config.cmake and a ConfigVersion.cmake file and install them
+ set(CMAKECONFIG_INSTALL_DIR "${KDE_INSTALL_CMAKEPACKAGEDIR}/KF5Config")
+diff --git a/src/kconfig_compiler/CMakeLists.txt b/src/kconfig_compiler/CMakeLists.txt
+index dc0a08d..ee6394b 100644
+--- a/src/kconfig_compiler/CMakeLists.txt
++++ b/src/kconfig_compiler/CMakeLists.txt
+@@ -20,4 +20,4 @@ target_link_libraries(kconfig_compiler Qt5::Xml)
+ 
+ ecm_mark_nongui_executable(kconfig_compiler)
+ 
+-install(TARGETS kconfig_compiler EXPORT KF5ConfigCompilerTargets DESTINATION ${KDE_INSTALL_LIBEXECDIR_KF5})
++install(TARGETS kconfig_compiler EXPORT KF5ConfigCompilerTargets DESTINATION ${KCONFIG_COMPILER_INSTALL_DIR})
